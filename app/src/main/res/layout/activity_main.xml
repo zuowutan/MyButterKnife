@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tzw.com.mybutterknife.MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f2f2f2"
+        android:gravity="center"
+        android:text="tanzuowu love Android" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#e7e7e7"
+        android:text="tanzuowu love Cooking" />
+
+    <Button
+        android:id="@+id/mybutton"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="自定义黄油刀"
+        android:layout_height="45dp" />
+
+</LinearLayout>
